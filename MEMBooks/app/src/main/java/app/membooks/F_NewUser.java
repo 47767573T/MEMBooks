@@ -1,22 +1,26 @@
 package app.membooks;
 
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A placeholder fragment containing a simple view.
- */
-public class A_MainFragment extends Fragment {
 
-    public A_MainFragment() {
-    }
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class F_NewUser extends Fragment {
+
+    public F_NewUser() { }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.a_main_lay, container, false);
+
+        return inflater.inflate(R.layout.lay_f_newuser, container, false);
     }
+
+
 }

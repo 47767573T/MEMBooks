@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="app.membooks.F_Login">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="email"
+            android:ems="10"
+            android:id="@+id/edtLogin" />
+
+        <EditText
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/edtPassword"
+            android:text="password" />
+
+        <Button
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnSubmit"
+            android:layout_gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="New User"
+            android:id="@+id/txvNewUser"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.07"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:id="@+id/txvForgotPass"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center" />
+    </LinearLayout>
+</RelativeLayout>
